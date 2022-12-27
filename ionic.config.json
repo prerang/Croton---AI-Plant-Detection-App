@@ -1,0 +1,7 @@
+{
+  "name": "crotonpi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
