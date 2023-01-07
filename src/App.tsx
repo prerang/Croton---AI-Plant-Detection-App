@@ -19,13 +19,26 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import { Auth } from './pages/Routes';
-import './App.css'
+import './App.css';
+import Forgetpass from './pages/Forget Pass/Forgetpass';
+import Verifyemail from './pages/Forget Pass/Verifypass';
+import Newpass from './pages/Forget Pass/Newpass';
+import './Quiz.css';
+import MainQuiz from './components/Quiz/MainQuix';
+import Profile from './pages/Profile page/Profile';
+import Score from './components/Quiz/Score';
 
 setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <Auth/>
+    {/* <Auth/> */}
+    {/* <Forgetpass/> */}
+    {/* <Verifyemail/> */}
+    {/* <Newpass/> */}
+    {/* <MainQuiz/> */}
+    {/* <Profile/> */}
+    <Score/>
   </IonApp>
 );
 

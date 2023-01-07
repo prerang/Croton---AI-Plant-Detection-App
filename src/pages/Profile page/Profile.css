@@ -1,0 +1,72 @@
+ion-content::part(background) {
+    background: var(--ion-color-secondary);
+
+}
+
+.profile_head {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.profile_pic {
+    background-color: var(--ion-color-primary-contrast);
+    border-radius: 100px;
+    width: 99px;
+    height: 99px;
+    margin: auto;
+}
+
+.profile_input_text {
+    background-color: var(--ion-color-primary-contrast);
+    width: 360px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 18px;
+    position: relative;
+}
+
+.inputs {
+    padding: 22px;
+    margin-left: 8px;
+}
+
+.profile_label {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--ion-color-primary);
+}
+
+.profile_input {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 11px;
+}
+
+.profile_btn {
+    padding: 4px 0px;
+    width: 157px;
+    height: 48px;
+    border-radius: 50px;
+    margin-top: 28px;
+}
+
+.profile_plant1 {
+    position: absolute;
+    width: 189px;
+    height: 184px;
+    left: -64.66px;
+    top: -56.73px;
+    transform: rotate(136.48deg);
+}
+
+.profile_plant2 {
+    position: absolute;
+    width: 143.88px;
+    height: 158.79px;
+    left: 288px;
+    top: 104px;
+    transform: rotate(-27.21deg);
+}
